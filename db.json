@@ -19,8 +19,19 @@
       "id": 1,
       "name": "John Doe",
       "email": "",
-      "bossId": "",
       "salary": 1500,
+      "fiatCurrency": "USD",
+      "cryptoCurrency": "BTC",
+      "wallet": "n4VQ5YdHf7hLQ2gWQYYrcxoE5B7nWuDFNF",
+      "paymentMethod": "crypto"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "name": "Meteor Landing",
+      "email": "",
+      "salary": 50,
       "fiatCurrency": "USD",
       "cryptoCurrency": "BTC",
       "wallet": "n4VQ5YdHf7hLQ2gWQYYrcxoE5B7nWuDFNF",
