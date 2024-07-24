@@ -1,42 +1,19 @@
 {
-  "transactions": [
+  "events": [
     {
-      "id": 1,
-      "transactionId": "adhgasjyistwt",
-      "itemId": 10000,
-      "itemType": "product",
-      "amount": 1500,
-      "fiatCurrency": "USD",
-      "cryptoCurrency": "BTC",
-     "status": "pending",
-      "createdAt": "2021-08-01T12:00:00",
-      "updatedAt": "2021-08-01T12:00:00",
-      "userId": 19
-    }
-  ],
-  "employees": [
+        "id": 1,
+        "slug": "intro-to-markdown",
+        "content": "# Introduction to Markdown\nMarkdown is a lightweight markup language with plain text formatting syntax. It is designed to be easy to read and write. \n\n## Why Use Markdown?\n- **Simple Syntax**: Markdown is simple and easy to learn.\n- **Readable**: Even without rendering, Markdown documents are readable.\n- **Portable**: Markdown can be converted to various formats such as HTML, PDF, and more.\n\n## Basic Syntax\nHere are some basic elements of Markdown:\n\n### Headers\nUse `#` for headers. The number of `#` determines the header level:\n```\n# Header 1\n## Header 2\n### Header 3\n```\n### Lists\nUse `-` for unordered lists and numbers for ordered lists:\n```\n- Item 1\n- Item 2\n  - Subitem 1\n  - Subitem 2\n\n1. First item\n2. Second item\n3. Third item\n```\n### Links\nUse `[link text](URL)` to create a hyperlink:\n```\n[OpenAI](https://www.openai.com)\n```\n### Images\nUse `![alt text](URL)` to add images:\n```\n![Markdown logo](https://example.com/markdown-logo.png)\n```"
+    },
     {
-      "id": 1,
-      "name": "John Doe",
-      "email": "",
-      "salary": 1500,
-      "fiatCurrency": "USD",
-      "cryptoCurrency": "BTC",
-      "wallet": "n4VQ5YdHf7hLQ2gWQYYrcxoE5B7nWuDFNF",
-      "paymentMethod": "crypto"
-    }
-  ],
-  "services": [
+        "id": 2,
+        "slug": "advanced-markdown-techniques",
+        "content": "# Advanced Markdown Techniques\nOnce you're familiar with basic Markdown syntax, you can explore some advanced techniques to enhance your documents.\n\n## Tables\nYou can create tables using the following syntax:\n```\n| Header 1 | Header 2 |\n| -------- | -------- |\n| Row 1 Col 1 | Row 1 Col 2 |\n| Row 2 Col 1 | Row 2 Col 2 |\n```\n\n## Code Blocks\nTo include code blocks, use triple backticks:\n```\n```\nfunction helloWorld() {\n  console.log(\"Hello, World!\");\n}\n```\n```\n\n## Blockquotes\nBlockquotes are created using `>`:\n```\n> This is a blockquote.\n```\n\n## Strikethrough\nUse `~~` to strikethrough text:\n```\n~~This is a strikethrough text.~~\n```\n\n## Task Lists\nYou can create task lists using `- [ ]` or `- [x]`:\n```\n- [x] Completed task\n- [ ] Incomplete task\n```\n\n## Embedding HTML\nMarkdown also allows you to embed HTML directly within your document:\n```\n<div style=\"color: blue;\">This is a blue text.</div>\n```"
+    },
     {
-      "id": 1,
-      "name": "Meteor Landing",
-      "email": "",
-      "salary": 50,
-      "fiatCurrency": "USD",
-      "cryptoCurrency": "BTC",
-      "wallet": "n4VQ5YdHf7hLQ2gWQYYrcxoE5B7nWuDFNF",
-      "paymentMethod": "crypto",
-      "walletTag": ""
+        "id": 3,
+        "slug": "markdown-tools-and-extensions",
+        "content": "# Markdown Tools and Extensions\nMarkdown's simplicity and versatility have led to the creation of various tools and extensions to enhance its functionality.\n\n## Markdown Editors\nHere are some popular Markdown editors:\n- **Visual Studio Code**: A popular code editor with Markdown support through extensions.\n- **Typora**: A minimalistic Markdown editor with real-time preview.\n- **Obsidian**: A powerful Markdown editor for note-taking and knowledge management.\n\n## Markdown Extensions\nExtensions can add new features to Markdown:\n\n### MathJax\nInclude mathematical notation using LaTeX syntax:\n```\n$$\nE = mc^2\n$$\n```\n\n### Mermaid\nCreate diagrams and flowcharts:\n```\n```mermaid\ngraph TD;\n  A-->B;\n  A-->C;\n  B-->D;\n  C-->D;\n```\n\n### GitHub Flavored Markdown (GFM)\nGitHub Flavored Markdown adds features like task lists, tables, and syntax highlighting:\n\n- Task Lists:\n  - [x] Task 1\n  - [ ] Task 2\n\n- Syntax Highlighting:\n  ```python\n  def hello_world():\n      print(\"Hello, World!\")\n  ```\n\n## Conclusion\nMarkdown's flexibility and extensibility make it a great choice for writing and formatting text. Whether you're writing documentation, taking notes, or creating web content, Markdown has the tools and extensions to meet your needs."
     }
-  ]
+]
 }
